@@ -1,0 +1,31 @@
+---
+title: "Tori's Unit 2 Lecture Assignment Stackloss Skaterplot"
+author: "Tori"
+date: "5/14/2018"
+output: 
+  html_document:
+    keep_md: true
+---
+
+```{r}
+summary(stackloss)
+```
+Interpret Summary
+  *The summary command reports the five-number summary, or the minimum, maximum, first and third quartiles, and the mean
+  *stackloss data includes variables for air flow, water temperature, acid concentration, and stack loss
+
+```{r}
+str(stackloss)
+```
+Interpret Structure
+  *The structure command reports the structure of the called object or data frame. 
+  *stackloss data includes 21 observations inside four variables each
+
+```{r}
+plot(stackloss$stack.loss, stackloss$Air.Flow,xlab="Stackloss Data", ylab="Airflow Data", main="Skaterplot!!!")
+```
+Interpret Plot
+  *The plot command creates a scatterplot of the specified data on the specified axes
+  *In this case, the stackloss variables Air.Flow and stack.loss were plotted, with airflow on the y axis and stackloss on the x axis.
+  *The higher the airflow, the higher the stackloss
+    *These variables are positively correlated
