@@ -320,7 +320,7 @@ $(document).ready(function () {
 <ul>
 <li>First, import the .txt file into R so you can process it. Keep in mind this is not a CSV file. You might have to open the file to see what you’re dealing with. Assign the resulting data frame to an object, df, that consists of three columns with human-readable column names for each.</li>
 </ul>
-<pre class="r"><code>df&lt;-data.frame(read.csv(&quot;~/Desktop/6306 Week 5 Downloads/yob2016 (1).txt&quot;, header=FALSE, sep=&quot;;&quot;))
+<pre class="r"><code>df&lt;-data.frame(read.csv(&quot;/code/msds/msds-6306/github/assignments/homework/unit-5/yob2016.txt&quot;, header=FALSE, sep=&quot;;&quot;))
 
 colnames(df)&lt;-c(&quot;name&quot;, &quot;sex&quot;, &quot;total&quot;)
 
@@ -366,7 +366,7 @@ head(df)</code></pre>
 <div id="a-1" class="section level2">
 <h2>A</h2>
 <p>*a. Like 1a, please import the .txt file into R. Look at the file before you do. You might have to change some options to import it properly. Again, please give the dataframe human-readable column names. Assign the dataframe to y2015.</p>
-<pre class="r"><code>y2015&lt;-data.frame(read.csv(&quot;~/Desktop/6306 Week 5 Downloads/yob2015 (1).txt&quot;, header=FALSE, sep=&quot;,&quot;))
+<pre class="r"><code>y2015&lt;-data.frame(read.csv(&quot;/code/msds/msds-6306/github/assignments/homework/unit-5/yob2015.txt&quot;, header=FALSE, sep=&quot;,&quot;))
 
 colnames(y2015)&lt;-c(&quot;name&quot;, &quot;sex&quot;, &quot;total&quot;)
 
@@ -468,7 +468,8 @@ write.csv(girltoptencsv, file = &quot;Top Ten Girl Names 2015-2016&quot;, row.na
 <p>*Upload to GitHub: Push at minimum your RMarkdown for this homework assignment and a Codebook to one of your GitHub repositories (you might place this in a Homework repo like last week). The Codebook should contain a short definition of each object you create, and if creating multiple files, which file it is contained in. You are welcome and encouraged to add other files—just make sure you have a description and directions that are helpful for the grader.</p>
 <pre class="r"><code>#This document, &quot;Wheelis 6306 Unit 5 HW 5&quot; has been uploaded to Github
 #The csvs referenced in this assignment have been uploaded to Github
-#A codebook all csv files used in this assignment has also been uploaded to Github</code></pre>
+#A codebook all csv files used in this assignment has also been uploaded to Github
+#link: https://github.com/twheelis/msds-6306/tree/master/homework</code></pre>
 <p>Fin.</p>
 </div>
 

@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## A
   * First, import the .txt file into R so you can process it.  Keep in mind this is not a CSV file.  You might have to open the file to see what you’re dealing with.  Assign the resulting data frame to an object, df, that consists of three columns with human-readable column names for each.
 ```{r, echo=TRUE}
-df<-data.frame(read.csv("~/Desktop/6306 Week 5 Downloads/yob2016 (1).txt", header=FALSE, sep=";"))
+df<-data.frame(read.csv("/code/msds/msds-6306/github/assignments/homework/unit-5/yob2016.txt", header=FALSE, sep=";"))
 
 colnames(df)<-c("name", "sex", "total")
 
@@ -54,7 +54,7 @@ y2016<-df[-c(grep("yyy", df$name)),]
   *a.	Like 1a, please import the .txt file into R.  Look at the file before you do.  You might have to change some options to import it properly.  Again, please give the dataframe human-readable column names.  Assign the dataframe to y2015.  
   
 ```{r, echo=TRUE}
-y2015<-data.frame(read.csv("~/Desktop/6306 Week 5 Downloads/yob2015 (1).txt", header=FALSE, sep=","))
+y2015<-data.frame(read.csv("/code/msds/msds-6306/github/assignments/homework/unit-5/yob2015.txt", header=FALSE, sep=","))
 
 colnames(y2015)<-c("name", "sex", "total")
 
@@ -137,6 +137,7 @@ write.csv(girltoptencsv, file = "Top Ten Girl Names 2015-2016", row.names = FALS
 #This document, "Wheelis 6306 Unit 5 HW 5" has been uploaded to Github
 #The csvs referenced in this assignment have been uploaded to Github
 #A codebook all csv files used in this assignment has also been uploaded to Github
+#link: https://github.com/twheelis/msds-6306/tree/master/homework
 
 ```
 
