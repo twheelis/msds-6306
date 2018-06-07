@@ -1,0 +1,31 @@
+Wheelis 6306 Unit 5 HW 5 Codebook
+
+
+
+YOB2015 (1).txt
+
+Variables:
+Name,sex,number
+
+Name: List of popular names for the year of 2015
+Sex: Biological sex of the babies given the name on the list
+Number: Number of babies given the name in that year
+
+
+
+YOB2016 (1).txt
+name,sex,number
+
+Name: List of popular names for the year of 2015
+Sex: Biological sex of the babies given the name on the list
+Number: Number of babies given the name in that year
+
+
+
+Top Ten Girl Names 2015-2016
+name,2016total,2015total,total
+
+Name: Name of top ten girl's name from 2015-2016
+2016Total: Total number of girls given the name in 2016
+2015Total: Total number of girls given the name in 2015
+Total: Total number of girls given the name 2015-2016; 2015Total and 2016Total added together
